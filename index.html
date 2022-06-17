@@ -20,8 +20,8 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-12 col-sm-6 mb-3">
-                <div class="p-2 px-3 border bg-white shadow">
-                    <form id="formulario" class="p-2 px-3 border bg-secondary ">
+                <div class="p-2 px-3 border bg-white shadow col1">
+                    <form id="formulario" class="p-2 px-3 border bg-secondary mt-2 ">
                         <h5 class="text-center fw-light mb-2 text-white">FORMULARIO</h5>
                         <input type="text" class="form-control rounded-0 my-1" placeholder="Ingrese una tarea">
                         <input type="date" class="form-control rounded-0 my-1">
@@ -56,8 +56,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6">
-                <div class="p-2 px-3 border shadow pb-3 bg-white">
-                    <h5 class="text-center fw-light mb-2 mt-2 mt-sm-0">LISTA DE TAREAS</h5>
+                <div class="p-2 px-3 border shadow pb-3 bg-white scroll">
+                    <h5 class="text-center fw-light mb-2 mt-2 bg-secondary text-white py-2 list-task">LISTA DE TAREAS</h5>
                     <!-- LISTA DE TAREAS  -->
                     <div id="tareas ">
                         <div class="card mt-2">
@@ -68,6 +68,18 @@
                                     <i class="fa-solid fa-trash"></i>
                                 </>
                                 <button class="btn btn-sm btn-secondary text-white mx-1">
+                                    <i class="fa-regular fa-square-check"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card mt-2">
+                            <div class="card-body">
+                                <p class="card-text">Estudiar Ingles para una entrevista Developer JR</p>
+                                <h6 class="card-subtitle mb-2 text-muted">2022-08-15</h6>
+                                <button class="btn btn-sm btn-danger text-white mx-1">
+                                    <i class="fa-solid fa-trash"></i>
+                                </>
+                                <button class="btn btn-sm btn-success text-white mx-1">
                                     <i class="fa-regular fa-square-check"></i>
                                 </button>
                             </div>
