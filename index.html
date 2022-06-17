@@ -14,12 +14,12 @@
     <title>Todo List PRO</title>
 </head>
 
-<body>
+<body class="mb-5">
     <h1 class="py-2 bg-primary text-white text-center fw-light">TODO LIST <span class="text-success">PRO</span> </h1>
     <!-- Containter -->
     <div class="container mt-4">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-sm-6 mb-3">
                 <div class="p-2 px-3 border bg-white shadow">
                     <form id="formulario" class="p-2 px-3 border bg-secondary ">
                         <h5 class="text-center fw-light mb-2 text-white">FORMULARIO</h5>
@@ -31,6 +31,7 @@
                     </form>
                     <hr class="text-muted">
                     <div>
+                        <!-- DATOS GLOBALES DE LAS TAREAS -->
                         <ol class="list-group list-group-numbered">
                             <li class="list-group-item d-flex justify-content-between align-items-start">
                               <div class="ms-2 me-auto">
@@ -54,18 +55,31 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
                 <div class="p-2 px-3 border shadow pb-3 bg-white">
-                    <h5 class="text-center fw-light mb-2">LISTA DE TAREAS</h5>
+                    <h5 class="text-center fw-light mb-2 mt-2 mt-sm-0">LISTA DE TAREAS</h5>
+                    <!-- LISTA DE TAREAS  -->
                     <div id="tareas ">
-                        <div class="card">
+                        <div class="card mt-2">
                             <div class="card-body">
-                                <p class="card-text">Some quick example  exampletext to build</p>
+                                <p class="card-text">Aprender React JS</p>
                                 <h6 class="card-subtitle mb-2 text-muted">2022-06-15</h6>
                                 <button class="btn btn-sm btn-danger text-white mx-1">
                                     <i class="fa-solid fa-trash"></i>
                                 </>
                                 <button class="btn btn-sm btn-secondary text-white mx-1">
+                                    <i class="fa-regular fa-square-check"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card mt-2">
+                            <div class="card-body">
+                                <p class="card-text">Estudiar Ingles para una entrevista Developer JR</p>
+                                <h6 class="card-subtitle mb-2 text-muted">2022-08-15</h6>
+                                <button class="btn btn-sm btn-danger text-white mx-1">
+                                    <i class="fa-solid fa-trash"></i>
+                                </>
+                                <button class="btn btn-sm btn-success text-white mx-1">
                                     <i class="fa-regular fa-square-check"></i>
                                 </button>
                             </div>
